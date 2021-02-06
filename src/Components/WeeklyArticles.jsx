@@ -1,6 +1,7 @@
 import React from "react";
 
-const WeeklyArticles = () => {
+const WeeklyArticles = ({ data: { weeklyArticles } }) => {
+  console.log(weeklyArticles);
   return (
     <div className="wk-art">
       <h3>Weekly Articles</h3>
