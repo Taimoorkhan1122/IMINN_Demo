@@ -6,22 +6,22 @@ const Header = () => {
       <nav className="nav-text lg:w-3/6">
         <ul className="flex flex-row justify-between items-center">
           <li>
-            <a href="http://localhost:3000/">
+            <a href="http://iminn-demo.surge.sh/">
               <img src="./assets/logo.svg" alt="logo" />
             </a>
           </li>
           <div className="container flex flex-row justify-between ml-10">
             <li>
-              <a href="http://localhost:3000/">Home</a>{" "}
+              <a href="http://iminn-demo.surge.sh/">Home</a>{" "}
             </li>
             <li>
-              <a href="http://localhost:3000/">About</a>{" "}
+              <a href="http://iminn-demo.surge.sh/">About</a>{" "}
             </li>
             <li>
-              <a href="http://localhost:3000/">Blog</a>{" "}
+              <a href="http://iminn-demo.surge.sh/">Blog</a>{" "}
             </li>
             <li>
-              <a href="http://localhost:3000/">Contact Us</a>
+              <a href="http://iminn-demo.surge.sh/">Contact Us</a>
             </li>
           </div>
         </ul>
