@@ -11,7 +11,9 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
+    min-height: 100vh;
     height: auto;
+    background-color: #fafafa;
   }
   h1 {
     font-family: Nunito Sans;

@@ -4,14 +4,15 @@ import LastArticle from "./LastArticle";
 import PopularArticles from "./LatestArticles";
 import WeeklyArticles from "./WeeklyArticles";
 
-const Content = () => {
+const Content = ({ data }) => {
+  const [lastArticle, weeklyArticles, popularArticles] = data;
   return (
     <div className="container h-auto">
       <div className="flex">
-        <LastArticle />
-        <PopularArticles />
+        <LastArticle data={lastArticle} />
+        <PopularArticles data={popularArticles} />
       </div>
-      <WeeklyArticles />
+      <WeeklyArticles data={weeklyArticles} />
     </div>
   );
 };
