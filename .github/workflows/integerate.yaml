@@ -20,6 +20,8 @@ jobs:
         run: sudo apt update && sudo apt install yarn
       - name: Build React app
         run: sudo yarn build
+      # - name: Adding permissions
+      # run: sudo chmod -R 777 node_module
       - name: Install surge
         run: npm install -g surge
       - name: Run Surge

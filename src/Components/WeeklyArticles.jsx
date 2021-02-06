@@ -10,7 +10,7 @@ const WeeklyArticles = ({ data: { weeklyArticles } }) => {
             <div className="img-container ">
               <img src="./assets/wk-article-1.png" alt="footbaal" />
             </div>
-            <div className="content w-9/12 pl-5 ">
+            <div className="content w-9/12 px-5 ">
               <h3>{article.heading}</h3>
               <p className="italic">{article.date}</p>
               <p>{article.content}</p>
