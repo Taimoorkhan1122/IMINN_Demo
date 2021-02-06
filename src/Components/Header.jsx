@@ -11,10 +11,18 @@ const Header = () => {
             </a>
           </li>
           <div className="container flex flex-row justify-between ml-10">
-            <li><a href="http://localhost:3000/">Home</a> </li>
-            <li><a href="http://localhost:3000/">About</a> </li>
-            <li><a href="http://localhost:3000/">Blog</a> </li>
-            <li><a href="http://localhost:3000/">Contact Us</a></li>
+            <li>
+              <a href="http://localhost:3000/">Home</a>{" "}
+            </li>
+            <li>
+              <a href="http://localhost:3000/">About</a>{" "}
+            </li>
+            <li>
+              <a href="http://localhost:3000/">Blog</a>{" "}
+            </li>
+            <li>
+              <a href="http://localhost:3000/">Contact Us</a>
+            </li>
           </div>
         </ul>
       </nav>

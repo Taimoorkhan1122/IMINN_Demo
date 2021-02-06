@@ -7,7 +7,7 @@ const Footer = () => {
         <nav className="nav-text lg:w-3/6">
           <ul className="flex flex-row justify-between items-center text-white  ">
             <li>
-              <img src="./assets/logo-light.svg" alt="" srcset="" />
+              <img src="./assets/logo-light.svg" alt="logo" />
             </li>
             <div className="container flex flex-row justify-between ml-10">
               <li>

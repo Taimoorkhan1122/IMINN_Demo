@@ -1,13 +1,12 @@
 import React from "react";
 
 const WeeklyArticles = ({ data: { weeklyArticles } }) => {
-  console.log(weeklyArticles);
   return (
     <div className="wk-art my-10">
       <h3>Weekly Articles</h3>
       <div className="container flex justify-between px-0">
-        {weeklyArticles.map((article) => (
-          <div className="wk-art-container w-auto flex ">
+        {weeklyArticles.map((article, index) => (
+          <div key={index + 2} className="wk-art-container w-auto flex ">
             <div className="img-container ">
               <img src="./assets/wk-article-1.png" alt="footbaal" />
             </div>
