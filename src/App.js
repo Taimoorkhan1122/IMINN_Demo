@@ -19,7 +19,7 @@ function App() {
       const res = fetchData();
       setData(res);
     }, 2000);
-  }, [data]);
+  }, []);
 
   if (!data || data.length < 0) return <h1>fetching data</h1>;
   return (

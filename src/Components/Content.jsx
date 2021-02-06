@@ -1,7 +1,7 @@
 import React from "react";
 
 import LastArticle from "./LastArticle";
-import PopularArticles from "./LatestArticles";
+import PopularArticles from "./PopularArticles";
 import WeeklyArticles from "./WeeklyArticles";
 
 const Content = ({ data }) => {
