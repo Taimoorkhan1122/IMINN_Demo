@@ -11,6 +11,7 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
+    height: auto;
   }
   h1 {
     font-family: Nunito Sans;
@@ -38,6 +39,7 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
+    padding: 0.75rem 0;
   }
   p {
     font-family: Nunito Sans;
@@ -47,6 +49,19 @@
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
+    color: rgba(37, 39, 41, 0.6);
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  .wk-art .img-container img {
+    /* width: 100%; */
+    padding: 0;
+    margin: 1rem 0;
+  }
+  .wk-art .icon {
+    width: 30px;
   }
   .nav-text {
     font-family: Nunito Sans;
@@ -64,5 +79,11 @@
   }
   .card-content {
     max-width: 256px;
+  }
+  .last-article-content {
+    max-width: 752px;
+  }
+  footer {
+    background: #ff8252;
   }
 }
