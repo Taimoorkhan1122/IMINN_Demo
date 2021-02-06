@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer w-full py-10">
       <div className="md:container md:mx-auto">
         <nav className="nav-text lg:w-3/6">
-          <ul className="flex flex-row justify-between items-center text-white">
+          <ul className="flex flex-row justify-between items-center text-white  ">
             <li>
               <img src="./assets/logo-light.svg" alt="" srcset="" />
             </li>
